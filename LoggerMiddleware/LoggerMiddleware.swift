@@ -22,12 +22,11 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-import Fuzz
-import Curvature
-import Darwin
 import Copyist
+import HTTP
+import HTTPMiddleware
 
-public struct LoggerMiddleware : HTTPRequestResponseMiddlewareType {
+public struct LoggerMiddleware: HTTPRequestResponseMiddlewareType {
     public init() {}
 
     public func respond(request: HTTPRequest, response: HTTPResponse) {

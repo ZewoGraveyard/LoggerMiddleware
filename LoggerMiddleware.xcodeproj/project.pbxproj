@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B00510A61BE97B7B001B3F26 /* Scribe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B005109B1BE97B7B001B3F26 /* Scribe.framework */; };
-		B00510F41BE9952D001B3F26 /* Scribe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B00510EA1BE9952D001B3F26 /* Scribe.framework */; };
-		B066A6EA1C07EDF40093EC78 /* ScribeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B066A6E91C07EDBD0093EC78 /* ScribeTests.swift */; };
-		B066A6EB1C07EDF40093EC78 /* ScribeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B066A6E91C07EDBD0093EC78 /* ScribeTests.swift */; };
-		B066A6EC1C07EDF70093EC78 /* LoggerMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = B066A6E61C07EDBD0093EC78 /* LoggerMiddleware.swift */; };
-		B066A6ED1C07EDF70093EC78 /* LoggerMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = B066A6E61C07EDBD0093EC78 /* LoggerMiddleware.swift */; };
-		B066A6EE1C07EE120093EC78 /* Scribe.h in Headers */ = {isa = PBXBuildFile; fileRef = B066A6E51C07EDBD0093EC78 /* Scribe.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B066A6EF1C07EE180093EC78 /* Scribe.h in Headers */ = {isa = PBXBuildFile; fileRef = B066A6E51C07EDBD0093EC78 /* Scribe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B00510A61BE97B7B001B3F26 /* LoggerMiddleware.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B005109B1BE97B7B001B3F26 /* LoggerMiddleware.framework */; };
+		B00510F41BE9952D001B3F26 /* LoggerMiddleware.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B00510EA1BE9952D001B3F26 /* LoggerMiddleware.framework */; };
+		B02C7B511C0A27DD00C2F591 /* LoggerMiddlewareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02C7B501C0A27B000C2F591 /* LoggerMiddlewareTests.swift */; };
+		B02C7B521C0A27DE00C2F591 /* LoggerMiddlewareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02C7B501C0A27B000C2F591 /* LoggerMiddlewareTests.swift */; };
+		B02C7B621C0A297600C2F591 /* LoggerMiddleware.h in Headers */ = {isa = PBXBuildFile; fileRef = B02C7B4C1C0A27B000C2F591 /* LoggerMiddleware.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B02C7B641C0A298500C2F591 /* LoggerMiddleware.h in Headers */ = {isa = PBXBuildFile; fileRef = B02C7B4C1C0A27B000C2F591 /* LoggerMiddleware.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B02C7B651C0A2A3100C2F591 /* LoggerMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02C7B4D1C0A27B000C2F591 /* LoggerMiddleware.swift */; };
+		B02C7B661C0A2A3100C2F591 /* LoggerMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02C7B4D1C0A27B000C2F591 /* LoggerMiddleware.swift */; };
 		B066A6F51C07EF340093EC78 /* copyist_swift.h in Headers */ = {isa = PBXBuildFile; fileRef = B066A6F41C07EF340093EC78 /* copyist_swift.h */; };
 		B066A6F61C07EF340093EC78 /* copyist_swift.h in Headers */ = {isa = PBXBuildFile; fileRef = B066A6F41C07EF340093EC78 /* copyist_swift.h */; };
 /* End PBXBuildFile section */
@@ -34,63 +34,49 @@
 			remoteGlobalIDString = B00510E91BE9952D001B3F26;
 			remoteInfo = "Currents iOS";
 		};
-		B09B61FA1C069230002BE654 /* PBXContainerItemProxy */ = {
+		B02C7B5A1C0A294400C2F591 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B09B61F01C069230002BE654 /* Fuzz.xcodeproj */;
+			containerPortal = B02C7B531C0A294400C2F591 /* HTTPMiddleware.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = B005109B1BE97B7B001B3F26;
-			remoteInfo = "Fuzz OSX";
+			remoteInfo = "HTTPMiddleware OSX";
 		};
-		B09B61FC1C069230002BE654 /* PBXContainerItemProxy */ = {
+		B02C7B5C1C0A294400C2F591 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B09B61F01C069230002BE654 /* Fuzz.xcodeproj */;
+			containerPortal = B02C7B531C0A294400C2F591 /* HTTPMiddleware.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = B00510EA1BE9952D001B3F26;
-			remoteInfo = "Fuzz iOS";
+			remoteInfo = "HTTPMiddleware iOS";
 		};
-		B09B61FE1C069230002BE654 /* PBXContainerItemProxy */ = {
+		B02C7B5E1C0A294D00C2F591 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B09B61F01C069230002BE654 /* Fuzz.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = B00510A51BE97B7B001B3F26;
-			remoteInfo = "Fuzz OSX Tests";
-		};
-		B09B62001C069230002BE654 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B09B61F01C069230002BE654 /* Fuzz.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = B00510F31BE9952D001B3F26;
-			remoteInfo = "Fuzz iOS Tests";
-		};
-		B09B62021C069249002BE654 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B09B61F01C069230002BE654 /* Fuzz.xcodeproj */;
+			containerPortal = B02C7B531C0A294400C2F591 /* HTTPMiddleware.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = B005109A1BE97B7B001B3F26;
-			remoteInfo = "Fuzz OSX";
+			remoteInfo = "HTTPMiddleware OSX";
 		};
-		B09B62041C06924D002BE654 /* PBXContainerItemProxy */ = {
+		B02C7B601C0A295400C2F591 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B09B61F01C069230002BE654 /* Fuzz.xcodeproj */;
+			containerPortal = B02C7B531C0A294400C2F591 /* HTTPMiddleware.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = B00510E91BE9952D001B3F26;
-			remoteInfo = "Fuzz iOS";
+			remoteInfo = "HTTPMiddleware iOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B005109B1BE97B7B001B3F26 /* Scribe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Scribe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B00510A51BE97B7B001B3F26 /* ScribeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScribeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B00510EA1BE9952D001B3F26 /* Scribe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Scribe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B00510F31BE9952D001B3F26 /* Scribe.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Scribe.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B066A6E41C07EDBD0093EC78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B066A6E51C07EDBD0093EC78 /* Scribe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Scribe.h; sourceTree = "<group>"; };
-		B066A6E61C07EDBD0093EC78 /* LoggerMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggerMiddleware.swift; sourceTree = "<group>"; };
-		B066A6E81C07EDBD0093EC78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B066A6E91C07EDBD0093EC78 /* ScribeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribeTests.swift; sourceTree = "<group>"; };
+		B005109B1BE97B7B001B3F26 /* LoggerMiddleware.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LoggerMiddleware.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B00510A51BE97B7B001B3F26 /* LoggerMiddlewareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoggerMiddlewareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B00510EA1BE9952D001B3F26 /* LoggerMiddleware.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LoggerMiddleware.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B00510F31BE9952D001B3F26 /* LoggerMiddlewareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoggerMiddlewareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B02C7B4B1C0A27B000C2F591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B02C7B4C1C0A27B000C2F591 /* LoggerMiddleware.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoggerMiddleware.h; sourceTree = "<group>"; };
+		B02C7B4D1C0A27B000C2F591 /* LoggerMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggerMiddleware.swift; sourceTree = "<group>"; };
+		B02C7B4F1C0A27B000C2F591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B02C7B501C0A27B000C2F591 /* LoggerMiddlewareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggerMiddlewareTests.swift; sourceTree = "<group>"; };
+		B02C7B531C0A294400C2F591 /* HTTPMiddleware.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = HTTPMiddleware.xcodeproj; path = HTTPMiddleware/HTTPMiddleware.xcodeproj; sourceTree = "<group>"; };
 		B066A6F31C07EEA80093EC78 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		B066A6F41C07EF340093EC78 /* copyist_swift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = copyist_swift.h; path = Dependencies/Copyist/copyist_swift.h; sourceTree = SOURCE_ROOT; };
-		B09B61F01C069230002BE654 /* Fuzz.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Fuzz.xcodeproj; path = Carthage/Checkouts/Fuzz/Fuzz.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B00510A61BE97B7B001B3F26 /* Scribe.framework in Frameworks */,
+				B00510A61BE97B7B001B3F26 /* LoggerMiddleware.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,7 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B00510F41BE9952D001B3F26 /* Scribe.framework in Frameworks */,
+				B00510F41BE9952D001B3F26 /* LoggerMiddleware.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,10 +116,10 @@
 		B00510911BE97B7B001B3F26 = {
 			isa = PBXGroup;
 			children = (
-				B09B61F01C069230002BE654 /* Fuzz.xcodeproj */,
+				B02C7B531C0A294400C2F591 /* HTTPMiddleware.xcodeproj */,
 				B066A6F01C07EEA80093EC78 /* Dependencies */,
-				B066A6E31C07EDBD0093EC78 /* Scribe */,
-				B066A6E71C07EDBD0093EC78 /* Scribe Tests */,
+				B02C7B4A1C0A27B000C2F591 /* LoggerMiddleware */,
+				B02C7B4E1C0A27B000C2F591 /* LoggerMiddleware Tests */,
 				B005109C1BE97B7B001B3F26 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -141,31 +127,40 @@
 		B005109C1BE97B7B001B3F26 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B005109B1BE97B7B001B3F26 /* Scribe.framework */,
-				B00510A51BE97B7B001B3F26 /* ScribeTests.xctest */,
-				B00510EA1BE9952D001B3F26 /* Scribe.framework */,
-				B00510F31BE9952D001B3F26 /* Scribe.xctest */,
+				B005109B1BE97B7B001B3F26 /* LoggerMiddleware.framework */,
+				B00510A51BE97B7B001B3F26 /* LoggerMiddlewareTests.xctest */,
+				B00510EA1BE9952D001B3F26 /* LoggerMiddleware.framework */,
+				B00510F31BE9952D001B3F26 /* LoggerMiddlewareTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B066A6E31C07EDBD0093EC78 /* Scribe */ = {
+		B02C7B4A1C0A27B000C2F591 /* LoggerMiddleware */ = {
 			isa = PBXGroup;
 			children = (
-				B066A6E41C07EDBD0093EC78 /* Info.plist */,
-				B066A6E51C07EDBD0093EC78 /* Scribe.h */,
-				B066A6E61C07EDBD0093EC78 /* LoggerMiddleware.swift */,
+				B02C7B4B1C0A27B000C2F591 /* Info.plist */,
+				B02C7B4C1C0A27B000C2F591 /* LoggerMiddleware.h */,
+				B02C7B4D1C0A27B000C2F591 /* LoggerMiddleware.swift */,
 			);
-			path = Scribe;
+			path = LoggerMiddleware;
 			sourceTree = "<group>";
 		};
-		B066A6E71C07EDBD0093EC78 /* Scribe Tests */ = {
+		B02C7B4E1C0A27B000C2F591 /* LoggerMiddleware Tests */ = {
 			isa = PBXGroup;
 			children = (
-				B066A6E81C07EDBD0093EC78 /* Info.plist */,
-				B066A6E91C07EDBD0093EC78 /* ScribeTests.swift */,
+				B02C7B4F1C0A27B000C2F591 /* Info.plist */,
+				B02C7B501C0A27B000C2F591 /* LoggerMiddlewareTests.swift */,
 			);
-			path = "Scribe Tests";
+			path = "LoggerMiddleware Tests";
+			sourceTree = "<group>";
+		};
+		B02C7B541C0A294400C2F591 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B02C7B5B1C0A294400C2F591 /* HTTPMiddleware.framework */,
+				B02C7B5D1C0A294400C2F591 /* HTTPMiddleware.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		B066A6F01C07EEA80093EC78 /* Dependencies */ = {
@@ -186,17 +181,6 @@
 			path = Belle;
 			sourceTree = "<group>";
 		};
-		B09B61F11C069230002BE654 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B09B61FB1C069230002BE654 /* Fuzz.framework */,
-				B09B61FD1C069230002BE654 /* Fuzz.framework */,
-				B09B61FF1C069230002BE654 /* FuzzTests.xctest */,
-				B09B62011C069230002BE654 /* FuzzTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -204,8 +188,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B02C7B621C0A297600C2F591 /* LoggerMiddleware.h in Headers */,
 				B066A6F51C07EF340093EC78 /* copyist_swift.h in Headers */,
-				B066A6EE1C07EE120093EC78 /* Scribe.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,17 +197,17 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B02C7B641C0A298500C2F591 /* LoggerMiddleware.h in Headers */,
 				B066A6F61C07EF340093EC78 /* copyist_swift.h in Headers */,
-				B066A6EF1C07EE180093EC78 /* Scribe.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		B005109A1BE97B7B001B3F26 /* Scribe OSX */ = {
+		B005109A1BE97B7B001B3F26 /* LoggerMiddleware OSX */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B00510AF1BE97B7B001B3F26 /* Build configuration list for PBXNativeTarget "Scribe OSX" */;
+			buildConfigurationList = B00510AF1BE97B7B001B3F26 /* Build configuration list for PBXNativeTarget "LoggerMiddleware OSX" */;
 			buildPhases = (
 				B00510961BE97B7B001B3F26 /* Sources */,
 				B00510971BE97B7B001B3F26 /* Frameworks */,
@@ -233,16 +217,16 @@
 			buildRules = (
 			);
 			dependencies = (
-				B09B62031C069249002BE654 /* PBXTargetDependency */,
+				B02C7B5F1C0A294D00C2F591 /* PBXTargetDependency */,
 			);
-			name = "Scribe OSX";
+			name = "LoggerMiddleware OSX";
 			productName = Currents;
-			productReference = B005109B1BE97B7B001B3F26 /* Scribe.framework */;
+			productReference = B005109B1BE97B7B001B3F26 /* LoggerMiddleware.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B00510A41BE97B7B001B3F26 /* Scribe OSX Tests */ = {
+		B00510A41BE97B7B001B3F26 /* LoggerMiddleware OSX Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B00510B21BE97B7B001B3F26 /* Build configuration list for PBXNativeTarget "Scribe OSX Tests" */;
+			buildConfigurationList = B00510B21BE97B7B001B3F26 /* Build configuration list for PBXNativeTarget "LoggerMiddleware OSX Tests" */;
 			buildPhases = (
 				B00510A11BE97B7B001B3F26 /* Sources */,
 				B00510A21BE97B7B001B3F26 /* Frameworks */,
@@ -253,14 +237,14 @@
 			dependencies = (
 				B00510A81BE97B7B001B3F26 /* PBXTargetDependency */,
 			);
-			name = "Scribe OSX Tests";
+			name = "LoggerMiddleware OSX Tests";
 			productName = CurrentsTests;
-			productReference = B00510A51BE97B7B001B3F26 /* ScribeTests.xctest */;
+			productReference = B00510A51BE97B7B001B3F26 /* LoggerMiddlewareTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B00510E91BE9952D001B3F26 /* Scribe iOS */ = {
+		B00510E91BE9952D001B3F26 /* LoggerMiddleware iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B00510FB1BE9952D001B3F26 /* Build configuration list for PBXNativeTarget "Scribe iOS" */;
+			buildConfigurationList = B00510FB1BE9952D001B3F26 /* Build configuration list for PBXNativeTarget "LoggerMiddleware iOS" */;
 			buildPhases = (
 				B00510E51BE9952D001B3F26 /* Sources */,
 				B00510E61BE9952D001B3F26 /* Frameworks */,
@@ -270,16 +254,16 @@
 			buildRules = (
 			);
 			dependencies = (
-				B09B62051C06924D002BE654 /* PBXTargetDependency */,
+				B02C7B611C0A295400C2F591 /* PBXTargetDependency */,
 			);
-			name = "Scribe iOS";
+			name = "LoggerMiddleware iOS";
 			productName = "Currents iOS";
-			productReference = B00510EA1BE9952D001B3F26 /* Scribe.framework */;
+			productReference = B00510EA1BE9952D001B3F26 /* LoggerMiddleware.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B00510F21BE9952D001B3F26 /* Scribe iOS Tests */ = {
+		B00510F21BE9952D001B3F26 /* LoggerMiddleware iOS Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B00510FE1BE9952D001B3F26 /* Build configuration list for PBXNativeTarget "Scribe iOS Tests" */;
+			buildConfigurationList = B00510FE1BE9952D001B3F26 /* Build configuration list for PBXNativeTarget "LoggerMiddleware iOS Tests" */;
 			buildPhases = (
 				B00510EF1BE9952D001B3F26 /* Sources */,
 				B00510F01BE9952D001B3F26 /* Frameworks */,
@@ -290,9 +274,9 @@
 			dependencies = (
 				B00510F61BE9952D001B3F26 /* PBXTargetDependency */,
 			);
-			name = "Scribe iOS Tests";
+			name = "LoggerMiddleware iOS Tests";
 			productName = "Currents iOSTests";
-			productReference = B00510F31BE9952D001B3F26 /* Scribe.xctest */;
+			productReference = B00510F31BE9952D001B3F26 /* LoggerMiddlewareTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -319,7 +303,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B00510951BE97B7B001B3F26 /* Build configuration list for PBXProject "Scribe" */;
+			buildConfigurationList = B00510951BE97B7B001B3F26 /* Build configuration list for PBXProject "LoggerMiddleware" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -331,47 +315,33 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = B09B61F11C069230002BE654 /* Products */;
-					ProjectRef = B09B61F01C069230002BE654 /* Fuzz.xcodeproj */;
+					ProductGroup = B02C7B541C0A294400C2F591 /* Products */;
+					ProjectRef = B02C7B531C0A294400C2F591 /* HTTPMiddleware.xcodeproj */;
 				},
 			);
 			projectRoot = "";
 			targets = (
-				B005109A1BE97B7B001B3F26 /* Scribe OSX */,
-				B00510E91BE9952D001B3F26 /* Scribe iOS */,
-				B00510A41BE97B7B001B3F26 /* Scribe OSX Tests */,
-				B00510F21BE9952D001B3F26 /* Scribe iOS Tests */,
+				B005109A1BE97B7B001B3F26 /* LoggerMiddleware OSX */,
+				B00510E91BE9952D001B3F26 /* LoggerMiddleware iOS */,
+				B00510A41BE97B7B001B3F26 /* LoggerMiddleware OSX Tests */,
+				B00510F21BE9952D001B3F26 /* LoggerMiddleware iOS Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		B09B61FB1C069230002BE654 /* Fuzz.framework */ = {
+		B02C7B5B1C0A294400C2F591 /* HTTPMiddleware.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = Fuzz.framework;
-			remoteRef = B09B61FA1C069230002BE654 /* PBXContainerItemProxy */;
+			path = HTTPMiddleware.framework;
+			remoteRef = B02C7B5A1C0A294400C2F591 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		B09B61FD1C069230002BE654 /* Fuzz.framework */ = {
+		B02C7B5D1C0A294400C2F591 /* HTTPMiddleware.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = Fuzz.framework;
-			remoteRef = B09B61FC1C069230002BE654 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B09B61FF1C069230002BE654 /* FuzzTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = FuzzTests.xctest;
-			remoteRef = B09B61FE1C069230002BE654 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B09B62011C069230002BE654 /* FuzzTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = FuzzTests.xctest;
-			remoteRef = B09B62001C069230002BE654 /* PBXContainerItemProxy */;
+			path = HTTPMiddleware.framework;
+			remoteRef = B02C7B5C1C0A294400C2F591 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -412,7 +382,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B066A6ED1C07EDF70093EC78 /* LoggerMiddleware.swift in Sources */,
+				B02C7B651C0A2A3100C2F591 /* LoggerMiddleware.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,7 +390,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B066A6EB1C07EDF40093EC78 /* ScribeTests.swift in Sources */,
+				B02C7B511C0A27DD00C2F591 /* LoggerMiddlewareTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,7 +398,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B066A6EC1C07EDF70093EC78 /* LoggerMiddleware.swift in Sources */,
+				B02C7B661C0A2A3100C2F591 /* LoggerMiddleware.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,7 +406,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B066A6EA1C07EDF40093EC78 /* ScribeTests.swift in Sources */,
+				B02C7B521C0A27DE00C2F591 /* LoggerMiddlewareTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,23 +415,23 @@
 /* Begin PBXTargetDependency section */
 		B00510A81BE97B7B001B3F26 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B005109A1BE97B7B001B3F26 /* Scribe OSX */;
+			target = B005109A1BE97B7B001B3F26 /* LoggerMiddleware OSX */;
 			targetProxy = B00510A71BE97B7B001B3F26 /* PBXContainerItemProxy */;
 		};
 		B00510F61BE9952D001B3F26 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B00510E91BE9952D001B3F26 /* Scribe iOS */;
+			target = B00510E91BE9952D001B3F26 /* LoggerMiddleware iOS */;
 			targetProxy = B00510F51BE9952D001B3F26 /* PBXContainerItemProxy */;
 		};
-		B09B62031C069249002BE654 /* PBXTargetDependency */ = {
+		B02C7B5F1C0A294D00C2F591 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Fuzz OSX";
-			targetProxy = B09B62021C069249002BE654 /* PBXContainerItemProxy */;
+			name = "HTTPMiddleware OSX";
+			targetProxy = B02C7B5E1C0A294D00C2F591 /* PBXContainerItemProxy */;
 		};
-		B09B62051C06924D002BE654 /* PBXTargetDependency */ = {
+		B02C7B611C0A295400C2F591 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Fuzz iOS";
-			targetProxy = B09B62041C06924D002BE654 /* PBXContainerItemProxy */;
+			name = "HTTPMiddleware iOS";
+			targetProxy = B02C7B601C0A295400C2F591 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -563,13 +533,13 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = Scribe/Info.plist;
+				INFOPLIST_FILE = LoggerMiddleware/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_BUNDLE_IDENTIFIER = com.zewo.Scribe;
-				PRODUCT_MODULE_NAME = Scribe;
-				PRODUCT_NAME = Scribe;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zewo.LoggerMiddleware;
+				PRODUCT_MODULE_NAME = LoggerMiddleware;
+				PRODUCT_NAME = LoggerMiddleware;
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Dependencies";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -587,13 +557,13 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = Scribe/Info.plist;
+				INFOPLIST_FILE = LoggerMiddleware/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_BUNDLE_IDENTIFIER = com.zewo.Scribe;
-				PRODUCT_MODULE_NAME = Scribe;
-				PRODUCT_NAME = Scribe;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zewo.LoggerMiddleware;
+				PRODUCT_MODULE_NAME = LoggerMiddleware;
+				PRODUCT_NAME = LoggerMiddleware;
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Dependencies";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -605,11 +575,11 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "Scribe Tests/Info.plist";
+				INFOPLIST_FILE = "LoggerMiddleware Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zewo.ScribeTests;
-				PRODUCT_MODULE_NAME = ScribeTests;
-				PRODUCT_NAME = ScribeTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zewo.LoggerMiddlewareTests;
+				PRODUCT_MODULE_NAME = LoggerMiddlewareTests;
+				PRODUCT_NAME = LoggerMiddlewareTests;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -619,11 +589,11 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "Scribe Tests/Info.plist";
+				INFOPLIST_FILE = "LoggerMiddleware Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zewo.ScribeTests;
-				PRODUCT_MODULE_NAME = ScribeTests;
-				PRODUCT_NAME = ScribeTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zewo.LoggerMiddlewareTests;
+				PRODUCT_MODULE_NAME = LoggerMiddlewareTests;
+				PRODUCT_NAME = LoggerMiddlewareTests;
 			};
 			name = Release;
 		};
@@ -637,13 +607,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Scribe/Info.plist;
+				INFOPLIST_FILE = LoggerMiddleware/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zewo.Scribe;
-				PRODUCT_MODULE_NAME = Scribe;
-				PRODUCT_NAME = Scribe;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zewo.LoggerMiddleware;
+				PRODUCT_MODULE_NAME = LoggerMiddleware;
+				PRODUCT_NAME = LoggerMiddleware;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Dependencies";
@@ -662,13 +632,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Scribe/Info.plist;
+				INFOPLIST_FILE = LoggerMiddleware/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zewo.Scribe;
-				PRODUCT_MODULE_NAME = Scribe;
-				PRODUCT_NAME = Scribe;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zewo.LoggerMiddleware;
+				PRODUCT_MODULE_NAME = LoggerMiddleware;
+				PRODUCT_NAME = LoggerMiddleware;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Dependencies";
@@ -683,12 +653,12 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = "Scribe Tests/Info.plist";
+				INFOPLIST_FILE = "LoggerMiddleware Tests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zewo.ScribeTests;
-				PRODUCT_MODULE_NAME = ScribeTests;
-				PRODUCT_NAME = ScribeTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zewo.LoggerMiddlewareTests;
+				PRODUCT_MODULE_NAME = LoggerMiddlewareTests;
+				PRODUCT_NAME = LoggerMiddlewareTests;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -699,12 +669,12 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = "Scribe Tests/Info.plist";
+				INFOPLIST_FILE = "LoggerMiddleware Tests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zewo.ScribeTests;
-				PRODUCT_MODULE_NAME = ScribeTests;
-				PRODUCT_NAME = ScribeTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zewo.LoggerMiddlewareTests;
+				PRODUCT_MODULE_NAME = LoggerMiddlewareTests;
+				PRODUCT_NAME = LoggerMiddlewareTests;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -713,7 +683,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B00510951BE97B7B001B3F26 /* Build configuration list for PBXProject "Scribe" */ = {
+		B00510951BE97B7B001B3F26 /* Build configuration list for PBXProject "LoggerMiddleware" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B00510AD1BE97B7B001B3F26 /* Debug */,
@@ -722,7 +692,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B00510AF1BE97B7B001B3F26 /* Build configuration list for PBXNativeTarget "Scribe OSX" */ = {
+		B00510AF1BE97B7B001B3F26 /* Build configuration list for PBXNativeTarget "LoggerMiddleware OSX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B00510B01BE97B7B001B3F26 /* Debug */,
@@ -731,7 +701,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B00510B21BE97B7B001B3F26 /* Build configuration list for PBXNativeTarget "Scribe OSX Tests" */ = {
+		B00510B21BE97B7B001B3F26 /* Build configuration list for PBXNativeTarget "LoggerMiddleware OSX Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B00510B31BE97B7B001B3F26 /* Debug */,
@@ -740,7 +710,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B00510FB1BE9952D001B3F26 /* Build configuration list for PBXNativeTarget "Scribe iOS" */ = {
+		B00510FB1BE9952D001B3F26 /* Build configuration list for PBXNativeTarget "LoggerMiddleware iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B00510FC1BE9952D001B3F26 /* Debug */,
@@ -749,7 +719,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B00510FE1BE9952D001B3F26 /* Build configuration list for PBXNativeTarget "Scribe iOS Tests" */ = {
+		B00510FE1BE9952D001B3F26 /* Build configuration list for PBXNativeTarget "LoggerMiddleware iOS Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B00510FF1BE9952D001B3F26 /* Debug */,

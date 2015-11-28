@@ -1,4 +1,4 @@
-// ScribeTests.swift
+// LoggerMiddleware.h
 //
 // The MIT License (MIT)
 //
@@ -20,18 +20,4 @@
 // AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 // LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-// SOFTWARE. 
-
-import XCTest
-import Scribe
-import Curvature
-
-class ScribeTests: XCTestCase {
-    func test() {
-        let logger = LoggerMiddleware()
-        let request = HTTPRequest(method: .GET, uri: URI(path: "/"), body: "hello")
-        let response = HTTPResponse(status: .OK, body: "world")
-        logger.respond(request, response: response)
-        logger.respond(request, response: response)
-    }
-}
+// SOFTWARE.

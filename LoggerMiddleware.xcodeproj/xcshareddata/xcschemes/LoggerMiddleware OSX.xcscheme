@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B005109A1BE97B7B001B3F26"
-               BuildableName = "Levee.framework"
-               BlueprintName = "Scribe OSX"
-               ReferencedContainer = "container:Scribe.xcodeproj">
+               BuildableName = "LoggerMiddleware.framework"
+               BlueprintName = "LoggerMiddleware OSX"
+               ReferencedContainer = "container:LoggerMiddleware.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,9 +34,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B00510A41BE97B7B001B3F26"
-               BuildableName = "Scribe.xctest"
-               BlueprintName = "Scribe OSX Tests"
-               ReferencedContainer = "container:Scribe.xcodeproj">
+               BuildableName = "LoggerMiddlewareTests.xctest"
+               BlueprintName = "LoggerMiddleware OSX Tests"
+               ReferencedContainer = "container:LoggerMiddleware.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,9 +44,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B005109A1BE97B7B001B3F26"
-            BuildableName = "Levee.framework"
-            BlueprintName = "Scribe OSX"
-            ReferencedContainer = "container:Scribe.xcodeproj">
+            BuildableName = "LoggerMiddleware.framework"
+            BlueprintName = "LoggerMiddleware OSX"
+            ReferencedContainer = "container:LoggerMiddleware.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B005109A1BE97B7B001B3F26"
-            BuildableName = "Levee.framework"
-            BlueprintName = "Scribe OSX"
-            ReferencedContainer = "container:Scribe.xcodeproj">
+            BuildableName = "LoggerMiddleware.framework"
+            BlueprintName = "LoggerMiddleware OSX"
+            ReferencedContainer = "container:LoggerMiddleware.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -84,9 +84,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B005109A1BE97B7B001B3F26"
-            BuildableName = "Levee.framework"
-            BlueprintName = "Scribe OSX"
-            ReferencedContainer = "container:Scribe.xcodeproj">
+            BuildableName = "LoggerMiddleware.framework"
+            BlueprintName = "LoggerMiddleware OSX"
+            ReferencedContainer = "container:LoggerMiddleware.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

@@ -1,9 +1,4 @@
-[submodule "Carthage/Checkouts/Curvature"]
-	url = https://github.com/Zewo/Curvature.git
-	path = Carthage/Checkouts/Curvature
-[submodule "Carthage/Checkouts/Otherside"]
-	url = https://github.com/Zewo/Otherside.git
-	path = Carthage/Checkouts/Otherside
-[submodule "Carthage/Checkouts/Fuzz"]
-	url = https://github.com/Zewo/Fuzz.git
-	path = Carthage/Checkouts/Fuzz
+[submodule "HTTPMiddleware"]
+	path = HTTPMiddleware
+	url = https://github.com/Zewo/HTTPMiddleware
+	branch = master
