@@ -1,4 +1,0 @@
-[submodule "HTTPMiddleware"]
-	path = HTTPMiddleware
-	url = https://github.com/Zewo/HTTPMiddleware
-	branch = master

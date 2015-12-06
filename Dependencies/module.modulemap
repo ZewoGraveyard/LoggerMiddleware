@@ -1,4 +1,0 @@
-module Copyist [system] {
-    header "Copyist/copyist_swift.h"
-    export *
-}
