@@ -22,7 +22,11 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-import Copyist
+#if os(Linux)
+    import Glibc
+#else
+    import Darwin.C
+#endif
 import HTTP
 import HTTPMiddleware
 
