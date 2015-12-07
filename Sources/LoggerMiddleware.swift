@@ -30,10 +30,10 @@
 import HTTP
 import HTTPMiddleware
 
-public struct LoggerMiddleware: HTTPRequestResponseMiddlewareType {
+public struct LoggerMiddleware: RequestResponseMiddlewareType {
     public init() {}
 
-    public func respond(request: HTTPRequest, response: HTTPResponse) {
+    public func respond(request: Request, response: Response) {
         let req = "\(request)\n-\n"
         let res = "\(response)\n"
 
